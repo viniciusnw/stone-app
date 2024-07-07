@@ -1,10 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import { View, Text, ActivityIndicator } from "react-native";
-
-import { Button, Icon, Logo } from "@Components";
 import { useNavigation } from "@react-navigation/native";
+import { Button, Icon, Logo } from "@Components";
 
-export default function Cart(props: any) {
+const Cart = (props: any) => {
   const navigation = useNavigation();
 
   React.useEffect(
@@ -30,3 +29,5 @@ export default function Cart(props: any) {
     </View>
   );
 }
+
+export default Cart;

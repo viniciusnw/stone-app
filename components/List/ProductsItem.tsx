@@ -56,6 +56,7 @@ const ProductsItem = ({
   oldPrice,
   img,
   carousel,
+  onPress,
   ...props
 }: any) => {
   function currencyFormat(num: number) {
@@ -63,7 +64,7 @@ const ProductsItem = ({
   }
 
   return (
-    <StyledTouchable {...props}>
+    <StyledTouchable onPress={onPress} {...props}>
       <StyledContainer carousel={carousel}>
         <StyledWrapper>
           <Image
@@ -79,7 +80,7 @@ const ProductsItem = ({
           />
 
           <StyledLabel>{label}</StyledLabel>
-          <StyledDescription>{description}</StyledDescription>
+          <StyledDescription numberOfLines={1}>{description}</StyledDescription>
         </StyledWrapper>
 
         <StyledBottom>

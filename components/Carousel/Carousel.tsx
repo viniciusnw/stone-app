@@ -8,6 +8,10 @@ const Wrapper = styled(View)`
   align-items: center;
 `;
 
+const Item = styled(View)`
+  height: 300;
+`;
+
 const MyCarousel = ({ data }: any) => {
   const initialActive = 0;
   const [active, setActive] = useState(0);
@@ -26,7 +30,7 @@ const MyCarousel = ({ data }: any) => {
         firstItem={initialActive}
         onBeforeSnapToItem={handleIndexChange}
         keyboardShouldPersistTaps="always"
-        renderItem={({ item, index }: any) => item}
+        renderItem={({ item, index }: any) => <Item>{item}</Item>}
       />
       <Pagination
         dotsLength={data.length}

@@ -4,6 +4,7 @@ import Entypo from "react-native-vector-icons/Entypo";
 import Feather from "react-native-vector-icons/Feather";
 import Ionicons from "react-native-vector-icons/Ionicons";
 import MaterialIcons from "react-native-vector-icons/MaterialIcons";
+import FontAwesome from "react-native-vector-icons/FontAwesome";
 
 const setIcon = (icon: string, props: any) => {
   switch (icon) {
@@ -39,6 +40,12 @@ const setIcon = (icon: string, props: any) => {
       return <Entypo name="home" {...props} />;
     case "cart":
       return <Entypo name="shopping-cart" {...props} />;
+    case "star":
+      return <FontAwesome name="star" {...props} />;
+    case "staro":
+      return <FontAwesome name="star-o" {...props} />;
+    case "starh":
+      return <FontAwesome name="star-half" {...props} />;
   }
 };
 

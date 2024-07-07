@@ -3,6 +3,7 @@ import styled from "styled-components/native";
 import { View, Text, TouchableOpacity } from "react-native";
 import Icon from "@Components/Icon";
 import Logo from "@Components/Logo";
+import Label from "@Components/Label";
 
 const StyledContainer = styled(View)`
   flex-direction: row;
@@ -19,45 +20,56 @@ const StyledTitle = styled(Text)`
   color: ${({ theme }) => theme.color.black};
   font-weight: 700;
   font-size: 20px;
+  max-width: 200;
+  text-align: center;
 `;
 
 const StyledFake = styled(View)`
   width: 30px;
 `;
 
+const CartQty = styled(View)`
+  position: absolute;
+  top: -15;
+  right: -10;
+`;
+
 const StyledBack = styled(TouchableOpacity)``;
 
-const StyledMenu = styled(TouchableOpacity)``;
+const StyledCart = styled(TouchableOpacity)``;
 
-class Header extends React.PureComponent<any, any> {
-  constructor(props: any) {
-    super(props);
-  }
+const Cart = ({ cart, cartQty }: any) => {
+  return (
+    <StyledCart onPress={cart}>
+      <Icon icon="cart" size={26} />
 
-  render() {
-    const { back, cart, title } = this.props;
-    return (
-      <StyledContainer>
-        {back ? (
-          <StyledBack onPress={back}>
-            <Icon icon="left" size={22} />
-          </StyledBack>
-        ) : (
-          <StyledFake />
-        )}
+      {!!cartQty && (
+        <CartQty>
+          <Label rounded label={cartQty} color="danger" />
+        </CartQty>
+      )}
+    </StyledCart>
+  );
+};
 
-        <StyledTitle> {title ? title : <Logo />} </StyledTitle>
+const Header = (props: any) => {
+  const { back, cart, title, cartQty } = props;
 
-        {cart ? (
-          <StyledMenu onPress={cart}>
-            <Icon icon="cart" size={26} />
-          </StyledMenu>
-        ) : (
-          <StyledFake />
-        )}
-      </StyledContainer>
-    );
-  }
-}
+  return (
+    <StyledContainer>
+      {back ? (
+        <StyledBack onPress={back}>
+          <Icon icon="left" size={22} />
+        </StyledBack>
+      ) : (
+        <StyledFake />
+      )}
+
+      <StyledTitle numberOfLines={2}>{title ? title : <Logo />}</StyledTitle>
+
+      {cart ? <Cart cart={cart} cartQty={cartQty} /> : <StyledFake />}
+    </StyledContainer>
+  );
+};
 
 export default Header;

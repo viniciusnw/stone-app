@@ -9,8 +9,10 @@
       "@Theme": ["./theme"],
       "@Assets/*": ["./assets/*"],
       "@Assets": ["./assets"],
-      "@Hooks/*": ["./hooks/*"],
-      "@Hooks": ["./hooks"],
+      "@Stores/*": ["./stores/*"],
+      "@Stores": ["./stores"],
+      "@Contexts/*": ["./contexts/*"],
+      "@Contexts": ["./contexts"],
       "@/*": [
         "./*"
       ]

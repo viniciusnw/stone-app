@@ -1,8 +1,6 @@
-import React, { Component } from "react";
-import { View, Text, ActivityIndicator } from "react-native";
-
+import React from "react";
+import { View } from "react-native";
 import { Button, Icon, LoginBox, Logo } from "@Components";
-import { useNavigation } from "@react-navigation/native";
 import styled from "styled-components";
 
 const StyledWrapper = styled(View)`

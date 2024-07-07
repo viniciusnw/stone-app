@@ -2,17 +2,22 @@ import React from "react";
 import { Header } from "@Components";
 import BottomBar from "./bottom.navigator";
 import { useNavigation } from "@react-navigation/native";
+import { useStore as useCheckoutStore } from "@Contexts/checkout.context";
+import { View } from "react-native";
+import { observer } from "mobx-react";
 
-export default function Wrapper(props: any) {
+const Wrapper = (props: any) => {
+  const { cart } = useCheckoutStore();
   const navigation = useNavigation();
 
   const [state, setState] = React.useState({
     bottomBar: {
-      text: "Avançar",
+      text: "...",
       label: false,
       description: false,
       onPress: () => null,
       menu: [],
+      disabled: true,
     },
     topBar: {
       back: null,
@@ -23,33 +28,20 @@ export default function Wrapper(props: any) {
 
   const { bottomBarType = null, Page, header } = props;
 
-  const goTo = (page: string) => {
+  const goTo = (page: string, state: any) => {
     // @ts-ignore
-    navigation.navigate(page);
+    navigation.navigate(page, state);
   };
 
   return (
-    <>
-      {header && (
-        <Header
-          back={state.topBar.back}
-          cart={state.topBar.cart}
-          title={state.topBar.title}
-        />
-      )}
+    <View style={{ flex: 1 }}>
+      {header && <Header cartQty={cart.items.length} {...state.topBar} />}
 
       <Page {...props} state={state} goTo={goTo} setState={setState} />
 
-      {bottomBarType && (
-        <BottomBar
-          type={bottomBarType}
-          menu={state.bottomBar.menu}
-          text={state.bottomBar.text}
-          label={state.bottomBar.label}
-          description={state.bottomBar.description}
-          onPress={state.bottomBar.onPress}
-        />
-      )}
-    </>
+      {bottomBarType && <BottomBar type={bottomBarType} {...state.bottomBar} />}
+    </View>
   );
 }
+
+export default observer(Wrapper);

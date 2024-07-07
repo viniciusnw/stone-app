@@ -1,20 +1,15 @@
 import React from "react";
 import useSWR from "swr";
-import { View, Text, ActivityIndicator } from "react-native";
-import { Button } from "@Components";
-import useSWRMutation from 'swr/mutation'
+import { View, ActivityIndicator } from "react-native";
+import { Carousel, ProductsItem } from "@Components";
 
 const get = (url: string) => fetch(url).then((res) => res.json());
 
-const post = (url: string) => fetch(url).then((res) => res.json());
-
 export default function Home(props: any) {
-  const { data, isLoading } = useSWR(
-    "https://fakestoreapi.com/products",
+  const { data: featureProducts = [], isLoading } = useSWR(
+    "https://fakestoreapi.com/products?limit=5",
     get
   );
-
-  const { trigger, isMutating } = useSWRMutation('https://fakestoreapi.com/products', post)
 
   React.useEffect(
     () =>
@@ -49,12 +44,29 @@ export default function Home(props: any) {
   );
 
   return (
-    <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
-      <Button onPress={() => props.goTo("Product")}>
-        <Text> Product </Text>
-      </Button>
+    <View style={{ flex: 1, paddingTop: 10 }}>
+      {!isLoading && featureProducts && (
+        <Carousel
+          data={featureProducts.map((item: any) => (
+            <ProductsItem
+              carousel
+              img={item.image}
+              label={item.title}
+              price={item.price}
+              description={item.description}
+              onPress={() => props.goTo("Product", { productId: item.id })}
+            />
+          ))}
+        />
+      )}
 
-      {isLoading || isMutating && <ActivityIndicator size="small" color={"black"} />}
+      {isLoading && (
+        <View
+          style={{ flex: 1, alignItems: "center", justifyContent: "center" }}
+        >
+          <ActivityIndicator size="large" color={"black"} />
+        </View>
+      )}
     </View>
   );
 }

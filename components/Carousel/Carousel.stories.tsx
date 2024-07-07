@@ -1,11 +1,5 @@
 import React from "react";
 import { Carousel, ProductsItem } from "@Components";
-import { View, Text } from "react-native";
-import styled from "styled-components/native";
-
-const Item = styled(View)`
-  height: 300;
-`;
 
 const products = [
   {
@@ -13,7 +7,7 @@ const products = [
     description: "Lorem ipsum sit dolor",
     price: 299,
     img: "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-    carousel: true
+    carousel: true,
   },
   {
     label: "Depilação de virilia",
@@ -21,7 +15,7 @@ const products = [
     price: 399,
     oldPrice: 499,
     img: "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
-    carousel: true
+    carousel: true,
   },
 ];
 
@@ -32,9 +26,7 @@ export default {
   component: (props: any) => (
     <Carousel
       data={products.map((item) => (
-        <Item>
-          <ProductsItem {...item} />
-        </Item>
+        <ProductsItem {...item} />
       ))}
     />
   ),
