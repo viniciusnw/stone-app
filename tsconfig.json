@@ -1,0 +1,25 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@Components/*": ["./components/*"],
+      "@Components": ["./components"],
+      "@Theme/*": ["./theme/*"],
+      "@Theme": ["./theme"],
+      "@Assets/*": ["./assets/*"],
+      "@Assets": ["./assets"],
+      "@Hooks/*": ["./hooks/*"],
+      "@Hooks": ["./hooks"],
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "metro.config.js"  ]
+}

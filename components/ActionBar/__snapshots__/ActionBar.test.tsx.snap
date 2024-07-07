@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActionBarWrapperDouble 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#ddd",
+      "flexDirection": "row",
+      "height": 62,
+      "paddingBottom": 0,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "paddingTop": 0,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={{}}
+    >
+      <Text
+        style={
+          {
+            "color": "#111111",
+            "fontSize": 16,
+            "fontWeight": "700",
+          }
+        }
+      >
+        3x de R$99,99
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#666666",
+            "marginTop": 2,
+          }
+        }
+      >
+        ou R$299,90
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#111111",
+          "display": "flex",
+          "height": 40,
+          "justifyContent": "center",
+          "opacity": 1,
+          "paddingBottom": 10,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+          "paddingTop": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#ffffff",
+            "fontSize": 14,
+            "fontWeight": "700",
+          }
+        }
+      >
+        <Text>
+          Comprar
+        </Text>
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`ActionBarWrapperSingle 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#ddd",
+      "flexDirection": "row",
+      "height": 62,
+      "paddingBottom": 0,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "paddingTop": 0,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "justifyContent": "flex-end",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#111111",
+          "display": "flex",
+          "height": 40,
+          "justifyContent": "center",
+          "opacity": 1,
+          "paddingBottom": 10,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+          "paddingTop": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#ffffff",
+            "fontSize": 14,
+            "fontWeight": "700",
+          }
+        }
+      >
+        <Text>
+          Avançar
+        </Text>
+      </Text>
+    </View>
+  </View>
+</View>
+`;
