@@ -62,7 +62,7 @@ A quick look at the top-level files and directories included with this template.
 
 ## Images
 
-<p float="left">
+<p float="left" align="center">
   <img src="./assets/images/app/1.jpeg" width="300" />
   <img src="./assets/images/app/2.jpeg" width="300" />
   <img src="./assets/images/app/3.jpeg" width="300" />
