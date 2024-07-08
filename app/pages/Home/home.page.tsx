@@ -23,8 +23,8 @@ export default function Home(props: any) {
           menu: [
             {
               icon: "wallet",
-              label: "Carteira",
-              onPress: () => true,
+              label: "Wallet",
+              onPress: () => props.goTo("Wallet"),
               primary: false,
             },
             {

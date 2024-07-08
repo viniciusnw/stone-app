@@ -15,7 +15,7 @@ const StyledDescription = styled(Text)`
   margin-top: 2px;
 `;
 
-const ActionBar = ({ label, description, ...props }: any) => {
+const PriceResume = ({ label, description, ...props }: any) => {
   return !label && !description ? null : (
     <StyledContainer {...props}>
       {label && <StyledLabel>{label}</StyledLabel>}
@@ -24,4 +24,4 @@ const ActionBar = ({ label, description, ...props }: any) => {
   );
 };
 
-export default ActionBar;
+export default PriceResume;

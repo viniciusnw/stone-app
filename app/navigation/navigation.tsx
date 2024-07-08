@@ -8,6 +8,7 @@ import Cart from "../pages/Cart/cart.page";
 import Product from "../pages/Product/product.page";
 import Login from "../pages/Login/login.page";
 import Profile from "../pages/Profile/profile.page";
+import Wallet from "../pages/Wallet/wallet.page";
 
 export default function Navigation() {
   const Stack = createStackNavigator();
@@ -48,6 +49,16 @@ export default function Navigation() {
             <Wrapper
               {...props}
               Page={Profile}
+              header
+              bottomBarType={"nav-bar"}
+            />
+          )}
+        </Stack.Screen>
+        <Stack.Screen name="Wallet" options={{ header: (_) => null }}>
+          {(props: any) => (
+            <Wrapper
+              {...props}
+              Page={Wallet}
               header
               bottomBarType={"nav-bar"}
             />

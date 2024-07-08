@@ -1,6 +1,10 @@
 import React from "react";
-import { View } from "react-native";
-import { Profile as ProfileComp } from "@Components";
+import { Text, View } from "react-native";
+import {
+  CreditCard,
+  Profile as ProfileComp,
+  Wallet as WalletComp,
+} from "@Components";
 import { useNavigation } from "@react-navigation/native";
 
 export type CardProps = {
@@ -9,13 +13,25 @@ export type CardProps = {
   brand: "visa" | "mastercard" | "santander";
 };
 
-export default function Profile(props: any) {
+export default function Wallet(props: any) {
   const navigation = useNavigation();
 
   const user = {
     src: "https://i.pinimg.com/280x280_RS/39/fd/09/39fd09a3f0962e5b7b4a3ccbf5a61057.jpg",
     name: "Bruce Wayne",
     rule: "Wayne Interprise",
+  };
+
+  const card: CardProps = {
+    name: "Bruce Wayne",
+    number: "**** **** **** 1234",
+    brand: "visa",
+  };
+
+  const card1: CardProps = {
+    name: "Dick Grayson",
+    number: "**** **** **** 1234",
+    brand: "mastercard",
   };
 
   React.useEffect(
@@ -25,8 +41,8 @@ export default function Profile(props: any) {
           menu: [
             {
               icon: "wallet",
-              label: "Wallet",
-              onPress: () => props.goTo("Wallet"),
+              label: "Carteira",
+              onPress: () => true,
               primary: false,
             },
             {
@@ -44,7 +60,7 @@ export default function Profile(props: any) {
           ],
         },
         topBar: {
-          title: "Profile",
+          title: "Wallet",
           back: navigation.goBack,
         },
       }),
@@ -53,7 +69,13 @@ export default function Profile(props: any) {
 
   return (
     <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
-      <ProfileComp {...user} />
+      <WalletComp value="R$ 10.000,00" qty={200} />
+
+      <View style={{ padding: 10 }}>
+        <Text style={{ marginBottom: 15 }}>Meus cartoes:</Text>
+        <CreditCard {...card} />
+        <CreditCard {...card1} />
+      </View>
     </View>
   );
 }
