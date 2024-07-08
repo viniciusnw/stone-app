@@ -37,6 +37,7 @@
 ## 🔎 What's inside?
 
 A quick look at the top-level files and directories included with this template.
+
 ```shell
 .
 ├── app
@@ -46,6 +47,7 @@ A quick look at the top-level files and directories included with this template.
 ├── theme
 ├── contexts
 ├── assets
+├── Error.handler.tsx
 ```
 
 1.  **`app`**: This folder is intended for the project pages and navigation
@@ -59,6 +61,8 @@ A quick look at the top-level files and directories included with this template.
 5.  **`contexts`**: React context API.
 
 6.  **`assets`**: images, fonts, icons.
+
+7.  **`Error.handler.tsx`**: Global error handler for exceptions management.
 
 ## 📷 Images
 
