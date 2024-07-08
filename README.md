@@ -60,7 +60,7 @@ A quick look at the top-level files and directories included with this template.
 
 6.  **`assets`**: images, fonts, icons.
 
-## Images
+## 📷 Images
 
 <p float="left" align="center">
   <img src="./assets/images/app/1.jpeg" width="300" />
