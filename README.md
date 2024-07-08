@@ -1,5 +1,5 @@
 <h1 align="center">
-  Yarn + Storybook + Expo React Native
+  Yarn + Storybook + Expo React Native (TypeScript)
 </h1>
 
 ## 🚅 Quick start
