@@ -41,7 +41,7 @@ const StyledNumber = styled(Text)`
   color: ${({ theme }) => theme.color.gray};
 `;
 
-export type Props = {
+type Props = {
   name: string,
   number: string,
   brand: 'visa' | 'mastercard' | 'santander',

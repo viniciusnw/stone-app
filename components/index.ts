@@ -27,12 +27,8 @@ export {
 } from './ActionBar';
 
 export { default as PriceResume } from './PriceResume';
-export { default as UserCard } from './UserCard';
-export { default as OrderInfo } from './OrderInfo';
 export { default as CreditCard } from './CreditCard';
 export { default as Wallet } from './Wallet';
-export { default as PaymentResume } from './PaymentResume';
 export { default as Logo } from './Logo';
 export { default as LoginBox } from './LoginBox';
-export { default as Fieldset } from './Fieldset';
 export { default as Carousel } from './Carousel';
