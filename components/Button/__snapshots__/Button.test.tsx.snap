@@ -33,6 +33,10 @@ exports[`ActionBar 1`] = `
     {
       "alignItems": "center",
       "backgroundColor": "rgb(10,245,61)",
+      "borderBottomLeftRadius": 0,
+      "borderBottomRightRadius": 0,
+      "borderTopLeftRadius": 0,
+      "borderTopRightRadius": 0,
       "display": "flex",
       "height": 40,
       "justifyContent": "center",

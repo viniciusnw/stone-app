@@ -9,7 +9,7 @@ export default class CartStore {
         })
     }
 
-    @observable items: Array<{id: number, price: number}> = [];
+    @observable items: Array<{id: number, price: number, title: string, image: string}> = [];
 
     @action
     add(product: any) {

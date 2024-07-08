@@ -11,6 +11,7 @@ export { default as StatusItem } from './List/StatusItem';
 export { default as AccountItem } from './List/AccountItem';
 export { default as BoxItem } from './List/BoxItem';
 export { default as ProductsItem } from './List/ProductsItem';
+export { default as ProductItemHorizontal } from './List/ProductItemHorizontal';
 
 export { default as StorybookWrapper } from './StorybookWrapper';
 export { default as Header } from './Header';

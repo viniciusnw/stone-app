@@ -4,6 +4,8 @@ import { useNavigation } from "@react-navigation/native";
 import { observer } from "mobx-react";
 import { useStore as useCheckoutStore } from "@Contexts/checkout.context";
 import { autorun } from "mobx";
+import CreditCard from "@Components/CreditCard";
+import { List, ProductItemHorizontal } from "@Components/index";
 
 const Cart: React.FC<any> = (props: any) => {
   const navigation = useNavigation();
@@ -15,13 +17,15 @@ const Cart: React.FC<any> = (props: any) => {
 
   const setNavigation = () => {
     const total = cart.items.reduce((acc, obj) => acc + obj.price, 0);
-
     props.setState({
       bottomBar: {
+        disabled: !cart.items.length,
         onPress: () => console.log("onNextBottomPress"),
         text: `Finalizar`,
-        label: `Total: ${total}`,
-        description: `ou 3x ${currencyFormat(total / 3)}`,
+        label: `Total: ${currencyFormat(total)}`,
+        description: cart.items.length
+          ? `ou 3x ${currencyFormat(total / 3)}`
+          : "",
       },
       topBar: {
         title: "Cart",
@@ -35,6 +39,18 @@ const Cart: React.FC<any> = (props: any) => {
   return (
     <View style={{ flex: 1, padding: 25 }}>
       <Text>{cart.items.length} produtos adicionados:</Text>
+      <Text />
+      <List
+        data={cart.items}
+        renderItem={({ item }: any) => (
+          <ProductItemHorizontal
+            qty={1}
+            image={item.image}
+            name={item.title}
+            onPress={() => cart.remove(item.id)}
+          />
+        )}
+      />
     </View>
   );
 };

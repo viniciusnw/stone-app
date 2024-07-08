@@ -81,6 +81,10 @@ exports[`ActionBarWrapperDouble 1`] = `
         {
           "alignItems": "center",
           "backgroundColor": "#111111",
+          "borderBottomLeftRadius": 0,
+          "borderBottomRightRadius": 0,
+          "borderTopLeftRadius": 0,
+          "borderTopRightRadius": 0,
           "display": "flex",
           "height": 40,
           "justifyContent": "center",
@@ -166,6 +170,10 @@ exports[`ActionBarWrapperSingle 1`] = `
         {
           "alignItems": "center",
           "backgroundColor": "#111111",
+          "borderBottomLeftRadius": 0,
+          "borderBottomRightRadius": 0,
+          "borderTopLeftRadius": 0,
+          "borderTopRightRadius": 0,
           "display": "flex",
           "height": 40,
           "justifyContent": "center",
