@@ -37,6 +37,7 @@
 ## 🔎 What's inside?
 
 A quick look at the top-level files and directories included with this template.
+```shell
 .
 ├── app
 ├── components
@@ -45,6 +46,7 @@ A quick look at the top-level files and directories included with this template.
 ├── theme
 ├── contexts
 ├── assets
+```
 
 1.  **`app`**: This folder is intended for the project pages and navigation
 
