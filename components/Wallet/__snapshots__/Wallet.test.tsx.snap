@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Wallet 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "paddingBottom": 60,
+      "paddingLeft": 15,
+      "paddingRight": 15,
+      "paddingTop": 60,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "borderBottomLeftRadius": 100,
+        "borderBottomRightRadius": 100,
+        "borderColor": "#ddd",
+        "borderStyle": "solid",
+        "borderTopLeftRadius": 100,
+        "borderTopRightRadius": 100,
+        "borderWidth": 1,
+        "height": 52,
+        "justifyContent": "center",
+        "marginBottom": 15,
+        "width": 52,
+      }
+    }
+  >
+    <Text />
+  </View>
+  <Text
+    style={
+      {
+        "color": "#111111",
+        "fontSize": 32,
+        "fontWeight": "700",
+      }
+    }
+  >
+    R$1350,50
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#666666",
+        "fontWeight": "700",
+        "marginTop": 5,
+      }
+    }
+  >
+    8 pedidos
+  </Text>
+</View>
+`;

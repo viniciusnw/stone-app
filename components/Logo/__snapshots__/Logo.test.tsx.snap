@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo 1`] = `
+<View
+  style={
+    {
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontFamily": "FredokaOne-Regular",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "rgb(0,168,104)",
+          "fontSize": 32,
+          "fontWeight": "700",
+        }
+      }
+    >
+      Stone
+    </Text>
+    <Text
+      style={
+        {
+          "color": "rgb(10,245,61)",
+          "fontSize": 32,
+          "fontWeight": "700",
+        }
+      }
+    >
+      Ton :)
+    </Text>
+  </Text>
+</View>
+`;

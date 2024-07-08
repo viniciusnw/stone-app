@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#ddd",
+      "flexDirection": "row",
+      "height": 62,
+      "justifyContent": "space-around",
+      "paddingBottom": 0,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "paddingTop": 0,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "opacity": 1,
+      }
+    }
+  >
+    <Text />
+    <Text
+      style={
+        {
+          "color": "#666666",
+          "fontSize": 11,
+          "fontWeight": "700",
+          "textTransform": "uppercase",
+        }
+      }
+    >
+      Cateira
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "opacity": 1,
+      }
+    }
+  >
+    <Text />
+    <Text
+      style={
+        {
+          "color": "#666666",
+          "fontSize": 11,
+          "fontWeight": "700",
+          "textTransform": "uppercase",
+        }
+      }
+    >
+      Carrinho
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "opacity": 1,
+      }
+    }
+  >
+    <Text />
+    <Text
+      style={
+        {
+          "color": "#666666",
+          "fontSize": 11,
+          "fontWeight": "700",
+          "textTransform": "uppercase",
+        }
+      }
+    >
+      Logout
+    </Text>
+  </View>
+</View>
+`;

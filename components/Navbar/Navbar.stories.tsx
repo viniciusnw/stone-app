@@ -8,7 +8,14 @@ const Wrapper = styled(View)`
   justify-content: flex-end;
 `;
 
-const client = [
+type Nav = {
+  icon: string;
+  label: string;
+  onPress: () => any;
+  primary: boolean;
+};
+
+const nav: Nav[] = [
   {
     icon: "wallet",
     label: "Cateira",
@@ -35,7 +42,7 @@ export default {
   title: "Navbar",
   component: () => (
     <Wrapper>
-      <Navbar items={client} />
+      <Navbar items={nav} />
     </Wrapper>
   ),
 };
