@@ -1,6 +1,6 @@
 import React from "react";
 import { View } from "react-native";
-import { Button, Icon, LoginBox, Logo } from "@Components";
+import { LoginBox } from "@Components";
 import styled from "styled-components";
 
 const StyledWrapper = styled(View)`

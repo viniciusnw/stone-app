@@ -13,7 +13,7 @@ const StyledContainer = styled(View)<{ carousel?: boolean }>`
 
 const StyledWrapper = styled(View)`
   flex: 1;
-  gap: 10;
+  gap: 10px;
   padding: ${({ theme }) => theme.spacing.regular};
 `;
 

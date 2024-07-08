@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <Image
+    source={
+      {
+        "uri": 1,
+      }
+    }
+    style={
+      {
+        "backgroundColor": "#fff",
+        "height": "40%",
+        "resizeMode": "contain",
+        "width": "100%",
+      }
+    }
+  />
+  <View
+    style={
+      {
+        "gap": 10,
+        "padding": 25,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "fontSize": 18,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      category
+    </Text>
+    <Text>
+      description
+    </Text>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text />
+      <Text />
+      <Text />
+      <Text />
+      <Text />
+      <Text
+        style={
+          {
+            "marginLeft": 10,
+          }
+        }
+      >
+        5
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`ProductWrapper 1`] = `
+<ContextProvider
+  value={
+    {
+      "color": {
+        "black": "#111111",
+        "border": "#ddd",
+        "danger": "red",
+        "default": "rgb(0,168,104)",
+        "gray": "#666666",
+        "grayDark": "#353535",
+        "grayLight": "#8c8c8c",
+        "primary": "rgb(10,245,61)",
+        "success": "green",
+        "warning": "orange",
+        "white": "#ffffff",
+      },
+      "font": {
+        "family": "'Helvetica Neue', Helvetica, sans-serif",
+        "size": "14px",
+      },
+      "height": {
+        "navbar": "62px",
+      },
+      "spacing": {
+        "extraLarge": "40px",
+        "extraSmall": "5px",
+        "large": "30px",
+        "medium": "20px",
+        "regular": "15px",
+        "small": "10px",
+        "xxLarge": "60px",
+      },
+    }
+  }
+>
+  <Memo(Wrapper)
+    Page={
+      {
+        "$$typeof": Symbol(react.memo),
+        "compare": null,
+        "type": [Function],
+      }
+    }
+    bottomBarType="action-bar"
+    header={true}
+  />
+</ContextProvider>
+`;

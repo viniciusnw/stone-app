@@ -8,6 +8,7 @@ const config: Config = {
         '!**/node_modules/**',
         '!**/vendor/**',
     ],
+    setupFilesAfterEnv: ['./setup-tests.js'],
 };
 
 export default config;

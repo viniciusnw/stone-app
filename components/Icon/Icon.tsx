@@ -46,6 +46,8 @@ const setIcon = (icon: string, props: any) => {
       return <FontAwesome name="star-o" {...props} />;
     case "starh":
       return <FontAwesome name="star-half" {...props} />;
+    default:
+      return <></>;
   }
 };
 

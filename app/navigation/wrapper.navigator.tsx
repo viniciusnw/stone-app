@@ -37,7 +37,7 @@ const Wrapper = (props: any) => {
     <View style={{ flex: 1 }}>
       {header && <Header cartQty={cart.items.length} {...state.topBar} />}
 
-      <Page {...props} state={state} goTo={goTo} setState={setState} />
+      <Page goTo={goTo} setState={setState} />
 
       {bottomBarType && <BottomBar type={bottomBarType} {...state.bottomBar} />}
     </View>

@@ -5,6 +5,7 @@ import Navigation from "./app/navigation/navigation";
 import { SafeAreaView, Text } from "react-native";
 import { SWRConfig } from "swr";
 import ErrorBoundary from "./Error.handler";
+import { Provider } from 'mobx-react';
 import Label from "@Components/Label";
 
 function App() {

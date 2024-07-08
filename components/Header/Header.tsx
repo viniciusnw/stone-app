@@ -20,7 +20,7 @@ const StyledTitle = styled(Text)`
   color: ${({ theme }) => theme.color.black};
   font-weight: 700;
   font-size: 20px;
-  max-width: 200;
+  max-width: 200px;
   text-align: center;
 `;
 
@@ -30,8 +30,8 @@ const StyledFake = styled(View)`
 
 const CartQty = styled(View)`
   position: absolute;
-  top: -15;
-  right: -10;
+  top: -15px;
+  right: -10px;
 `;
 
 const StyledBack = styled(TouchableOpacity)``;
@@ -57,7 +57,7 @@ const Header = (props: any) => {
 
   return (
     <StyledContainer>
-      {back ? (
+      {!!back ? (
         <StyledBack onPress={back}>
           <Icon icon="left" size={22} />
         </StyledBack>
@@ -67,7 +67,7 @@ const Header = (props: any) => {
 
       <StyledTitle numberOfLines={2}>{title ? title : <Logo />}</StyledTitle>
 
-      {cart ? <Cart cart={cart} cartQty={cartQty} /> : <StyledFake />}
+      {!!cart ? <Cart cart={cart} cartQty={cartQty} /> : <StyledFake />}
     </StyledContainer>
   );
 };

@@ -1,0 +1,399 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "paddingTop": 10,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <RCTScrollView
+      activeAnimationOptions={null}
+      activeAnimationType="timing"
+      activeSlideAlignment="center"
+      activeSlideOffset={20}
+      apparitionDelay={0}
+      automaticallyAdjustContentInsets={false}
+      autoplay={false}
+      autoplayDelay={1000}
+      autoplayInterval={3000}
+      callbackOffsetMargin={5}
+      collapsable={false}
+      containerCustomStyle={{}}
+      contentContainerCustomStyle={{}}
+      contentContainerStyle={
+        [
+          {
+            "paddingLeft": 50,
+            "paddingRight": 50,
+          },
+          {},
+        ]
+      }
+      data={[]}
+      decelerationRate="fast"
+      directionalLockEnabled={true}
+      enableMomentum={false}
+      enableSnap={true}
+      firstItem={0}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      hasParallaxImages={false}
+      horizontal={true}
+      inactiveSlideOpacity={0.7}
+      inactiveSlideScale={0.9}
+      inactiveSlideShift={0}
+      initialNumToRender={7}
+      invertStickyHeaders={false}
+      inverted={false}
+      isInvertedVirtualizedList={false}
+      itemWidth={300}
+      keyExtractor={[Function]}
+      keyboardShouldPersistTaps="always"
+      layout="default"
+      lockScrollTimeoutDuration={1000}
+      lockScrollWhileSnapping={false}
+      loop={false}
+      loopClonesPerSide={3}
+      maxToRenderPerBatch={15}
+      onBeforeSnapToItem={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onResponderRelease={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      onStartShouldSetResponderCapture={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      overScrollMode="never"
+      pinchGestureEnabled={false}
+      removeClippedSubviews={true}
+      renderItem={[Function]}
+      scrollEnabled={true}
+      scrollEventThrottle={1}
+      scrollsToTop={false}
+      shouldOptimizeUpdates={true}
+      showsHorizontalScrollIndicator={false}
+      showsVerticalScrollIndicator={false}
+      slideStyle={{}}
+      sliderWidth={400}
+      stickyHeaderIndices={[]}
+      style={
+        {
+          "flexDirection": "row",
+          "opacity": 0,
+          "width": 400,
+        }
+      }
+      swipeThreshold={20}
+      useScrollView={false}
+      vertical={false}
+      viewabilityConfigCallbackPairs={[]}
+      windowSize={15}
+    >
+      <View />
+    </RCTScrollView>
+  </View>
+  <View
+    style={
+      {
+        "flex": 1,
+        "paddingLeft": 5,
+        "paddingRight": 5,
+      }
+    }
+  >
+    <RCTScrollView
+      data={[]}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={0.0001}
+      stickyHeaderIndices={[]}
+      style={
+        {
+          "width": "100%",
+        }
+      }
+      viewabilityConfigCallbackPairs={[]}
+    >
+      <View />
+    </RCTScrollView>
+  </View>
+</View>
+`;
+
+exports[`HomeWrapper 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "borderBottomColor": "#ddd",
+        "borderColor": "transparent",
+        "borderStyle": "solid",
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "height": 62,
+        "justifyContent": "space-between",
+        "paddingBottom": 0,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingTop": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "width": 30,
+        }
+      }
+    />
+    <Text
+      numberOfLines={2}
+      style={
+        {
+          "color": "#111111",
+          "fontSize": 20,
+          "fontWeight": "700",
+          "maxWidth": 200,
+          "textAlign": "center",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontFamily": "FredokaOne-Regular",
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "rgb(0,168,104)",
+                "fontSize": 32,
+                "fontWeight": "700",
+              }
+            }
+          >
+            Stone
+          </Text>
+          <Text
+            style={
+              {
+                "color": "rgb(10,245,61)",
+                "fontSize": 32,
+                "fontWeight": "700",
+              }
+            }
+          >
+            Ton :)
+          </Text>
+        </Text>
+      </View>
+    </Text>
+    <View
+      style={
+        {
+          "width": 30,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      {
+        "flex": 1,
+        "paddingTop": 10,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <RCTScrollView
+        activeAnimationOptions={null}
+        activeAnimationType="timing"
+        activeSlideAlignment="center"
+        activeSlideOffset={20}
+        apparitionDelay={0}
+        automaticallyAdjustContentInsets={false}
+        autoplay={false}
+        autoplayDelay={1000}
+        autoplayInterval={3000}
+        callbackOffsetMargin={5}
+        collapsable={false}
+        containerCustomStyle={{}}
+        contentContainerCustomStyle={{}}
+        contentContainerStyle={
+          [
+            {
+              "paddingLeft": 50,
+              "paddingRight": 50,
+            },
+            {},
+          ]
+        }
+        data={[]}
+        decelerationRate="fast"
+        directionalLockEnabled={true}
+        enableMomentum={false}
+        enableSnap={true}
+        firstItem={0}
+        getItem={[Function]}
+        getItemCount={[Function]}
+        hasParallaxImages={false}
+        horizontal={true}
+        inactiveSlideOpacity={0.7}
+        inactiveSlideScale={0.9}
+        inactiveSlideShift={0}
+        initialNumToRender={7}
+        invertStickyHeaders={false}
+        inverted={false}
+        isInvertedVirtualizedList={false}
+        itemWidth={300}
+        keyExtractor={[Function]}
+        keyboardShouldPersistTaps="always"
+        layout="default"
+        lockScrollTimeoutDuration={1000}
+        lockScrollWhileSnapping={false}
+        loop={false}
+        loopClonesPerSide={3}
+        maxToRenderPerBatch={15}
+        onBeforeSnapToItem={[Function]}
+        onContentSizeChange={[Function]}
+        onLayout={[Function]}
+        onMomentumScrollBegin={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onResponderRelease={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        onStartShouldSetResponderCapture={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        overScrollMode="never"
+        pinchGestureEnabled={false}
+        removeClippedSubviews={true}
+        renderItem={[Function]}
+        scrollEnabled={true}
+        scrollEventThrottle={1}
+        scrollsToTop={false}
+        shouldOptimizeUpdates={true}
+        showsHorizontalScrollIndicator={false}
+        showsVerticalScrollIndicator={false}
+        slideStyle={{}}
+        sliderWidth={400}
+        stickyHeaderIndices={[]}
+        style={
+          {
+            "flexDirection": "row",
+            "opacity": 0,
+            "width": 400,
+          }
+        }
+        swipeThreshold={20}
+        useScrollView={false}
+        vertical={false}
+        viewabilityConfigCallbackPairs={[]}
+        windowSize={15}
+      >
+        <View />
+      </RCTScrollView>
+    </View>
+    <View
+      style={
+        {
+          "flex": 1,
+          "paddingLeft": 5,
+          "paddingRight": 5,
+        }
+      }
+    >
+      <RCTScrollView
+        data={[]}
+        getItem={[Function]}
+        getItemCount={[Function]}
+        keyExtractor={[Function]}
+        onContentSizeChange={[Function]}
+        onLayout={[Function]}
+        onMomentumScrollBegin={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={0.0001}
+        stickyHeaderIndices={[]}
+        style={
+          {
+            "width": "100%",
+          }
+        }
+        viewabilityConfigCallbackPairs={[]}
+      >
+        <View />
+      </RCTScrollView>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#ddd",
+        "flexDirection": "row",
+        "height": 62,
+        "justifyContent": "space-around",
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 0,
+      }
+    }
+  />
+</View>
+`;

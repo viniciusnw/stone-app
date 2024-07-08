@@ -1,5 +1,5 @@
-import { ScrollView, View } from "react-native";
-import { createGlobalStyle, ThemeProvider } from "styled-components";
+import { View } from "react-native";
+import { ThemeProvider } from "styled-components";
 import { withThemeFromJSXProvider } from "@storybook/addon-themes";
 import { Preview } from "@storybook/react";
 import React from "react";

@@ -2,7 +2,7 @@ import React from "react";
 import renderer from "react-test-renderer";
 import { lightTheme } from "@Theme";
 import { ThemeProvider } from "styled-components/native";
-import Cart from "./cart.page";
+import Login from "./login.page";
 import "jest-styled-components";
 import Wrapper from "@/app/navigation/wrapper.navigator";
 
@@ -22,22 +22,22 @@ jest.mock("@react-navigation/native", () => {
   };
 });
 
-test("CartWrapper", () => {
+test("LoginWrapper", () => {
   const tree = renderer
     .create(
       <ThemeProvider theme={lightTheme}>
-        <Wrapper Page={Cart} header bottomBarType={"action-bar"} />
+        <Wrapper Page={Login} header bottomBarType={null} />
       </ThemeProvider>
     )
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
 
-test("Cart", () => {
+test("Login", () => {
   const tree = renderer
     .create(
       <ThemeProvider theme={lightTheme}>
-        <Cart setState={jest.fn} />
+        <Login setState={jest.fn} />
       </ThemeProvider>
     )
     .toJSON();

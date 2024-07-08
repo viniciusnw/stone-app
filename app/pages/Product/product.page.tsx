@@ -4,7 +4,6 @@ import { RouteProp, useNavigation, useRoute } from "@react-navigation/native";
 import useSWRMutation from "swr/mutation";
 import { Image } from "react-native";
 import { Icon } from "@Components";
-import styled from "styled-components";
 import { observer } from "mobx-react";
 import { useStore as useCheckoutStore } from "@Contexts/checkout.context";
 import { autorun } from "mobx";
@@ -38,41 +37,38 @@ const Product: React.FC<any> = (props: any) => {
 
   const isAdded = (id: number) => !!cart.items.find((i) => i.id == id);
 
-  const setNavigation = () => {
+  const setNavigation = (p?: any) => {
+    const _product = p;
     props.setState({
       bottomBar: {
         onPress: () =>
-          isAdded(product.id) ? cart.remove(product.id) : cart.add(product),
-        text: isAdded(product.id) ? "Remover" : "Adicionar",
-        label: currencyFormat(product.price),
-        description: `ou 3x ${currencyFormat(product.price / 3)}`,
+          isAdded(_product.id) ? cart.remove(_product.id) : cart.add(_product),
+        text: isAdded(_product.id) ? "Remover" : "Adicionar",
+        label: currencyFormat(_product.price),
+        description: `ou 3x ${currencyFormat(_product.price / 3)}`,
       },
       topBar: {
-        title: product.title,
+        title: _product.title,
         back: navigation.goBack,
         cart: () => props.goTo("Cart"),
       },
     });
   };
 
-  React.useEffect(() => {
-    if (product && !isMutating) setNavigation();
-  }, [product]);
-
   React.useEffect(
-    () => autorun(() => product && setNavigation()),
+    () => autorun(() => product && setNavigation(product)),
     [cart.items, product]
   );
 
   React.useEffect(() => error && navigation.goBack(), [error]);
 
   React.useEffect(() => {
-    if (route.params?.productId) trigger();
+    if (route.params?.productId) trigger().then(p => setNavigation(p));
   }, []);
 
   return (
     <View style={{ flex: 1 }}>
-      {!isMutating && product && (
+      {!isMutating && !!product && (
         <>
           <Image
             style={{
@@ -87,7 +83,14 @@ const Product: React.FC<any> = (props: any) => {
           />
 
           <View style={{ padding: 25, gap: 10 }}>
-            <CategoryText>{product.category}</CategoryText>
+            <Text
+              style={{
+                fontSize: 18,
+                fontWeight: "bold",
+              }}
+            >
+              {product.category}
+            </Text>
             <Text>{product.description}</Text>
 
             <View style={{ flexDirection: "row", alignItems: "center" }}>
@@ -108,12 +111,6 @@ const Product: React.FC<any> = (props: any) => {
     </View>
   );
 };
-
-const CategoryText = styled(Text)`
-  font-size: 18px;
-  font-weight: bold;
-  color: ${({ theme }) => theme.color.black};
-`;
 
 const Rating: React.FC<{ rating: number }> = ({ rating }) => {
   return [...Array(5)].map((el, i) =>

@@ -9,7 +9,7 @@ const Wrapper = styled(View)`
 `;
 
 const Item = styled(View)`
-  height: 300;
+  height: 300px;
 `;
 
 const MyCarousel = ({ data }: any) => {
