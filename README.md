@@ -62,9 +62,11 @@ A quick look at the top-level files and directories included with this template.
 
 ## Images
 
-![Login](./assets/images/app/1.jpeg)
-![Home](./assets/images/app/2.jpeg)
-![Product](./assets/images/app/3.jpeg)
-![Profile](./assets/images/app/4.jpeg)
-![Wallet](./assets/images/app/5.jpeg)
-![Cart](./assets/images/app/6.jpeg)
+<p float="left">
+  <img src="./assets/images/app/1.jpeg" width="300" />
+  <img src="./assets/images/app/2.jpeg" width="300" />
+  <img src="./assets/images/app/3.jpeg" width="300" />
+  <img src="./assets/images/app/4.jpeg" width="300" />
+  <img src="./assets/images/app/5.jpeg" width="300" />
+  <img src="./assets/images/app/6.jpeg" width="300" />
+</p>
