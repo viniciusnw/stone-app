@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreditCard 1`] = `
+[
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "borderColor": "#ddd",
+        "borderStyle": "solid",
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "marginBottom": 15,
+        "paddingBottom": 0,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingTop": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flexBasis": 0,
+          "flexDirection": "row",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "justifyContent": "flex-start",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Image
+          source={1}
+          style={
+            {
+              "height": 52,
+              "width": 52,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          {
+            "borderColor": "transparent",
+            "borderLeftColor": "#ddd",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "marginLeft": 15,
+            "paddingBottom": 15,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#666666",
+              "fontSize": 18,
+              "fontWeight": "700",
+              "marginBottom": 5,
+            }
+          }
+        >
+          Bruce Wayne
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#666666",
+              "fontSize": 13,
+              "fontWeight": "700",
+            }
+          }
+        >
+          **** **** **** 1234
+        </Text>
+      </View>
+    </View>
+  </View>,
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "borderColor": "#ddd",
+        "borderStyle": "solid",
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "marginBottom": 15,
+        "paddingBottom": 0,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingTop": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flexBasis": 0,
+          "flexDirection": "row",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "justifyContent": "flex-start",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Image
+          source={1}
+          style={
+            {
+              "height": 52,
+              "width": 52,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          {
+            "borderColor": "transparent",
+            "borderLeftColor": "#ddd",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "marginLeft": 15,
+            "paddingBottom": 15,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#666666",
+              "fontSize": 18,
+              "fontWeight": "700",
+              "marginBottom": 5,
+            }
+          }
+        >
+          Dick Grayson
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#666666",
+              "fontSize": 13,
+              "fontWeight": "700",
+            }
+          }
+        >
+          **** **** **** 1234
+        </Text>
+      </View>
+    </View>
+  </View>,
+]
+`;

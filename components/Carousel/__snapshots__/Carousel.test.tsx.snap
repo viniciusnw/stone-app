@@ -1,0 +1,570 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "justifyContent": "center",
+    }
+  }
+>
+  <RCTScrollView
+    activeAnimationOptions={null}
+    activeAnimationType="timing"
+    activeSlideAlignment="center"
+    activeSlideOffset={20}
+    apparitionDelay={0}
+    automaticallyAdjustContentInsets={false}
+    autoplay={false}
+    autoplayDelay={1000}
+    autoplayInterval={3000}
+    callbackOffsetMargin={5}
+    collapsable={false}
+    containerCustomStyle={{}}
+    contentContainerCustomStyle={{}}
+    contentContainerStyle={
+      [
+        {
+          "paddingLeft": 50,
+          "paddingRight": 50,
+        },
+        {},
+      ]
+    }
+    data={
+      [
+        <ProductsItem
+          carousel={true}
+          description="Lorem ipsum sit dolor"
+          img="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+          label="Depilação de axilas"
+          price={299}
+        />,
+        <ProductsItem
+          carousel={true}
+          description="Amet sir conquetur amen"
+          img="https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg"
+          label="Depilação de virilia"
+          oldPrice={499}
+          price={399}
+        />,
+      ]
+    }
+    decelerationRate="fast"
+    directionalLockEnabled={true}
+    enableMomentum={false}
+    enableSnap={true}
+    firstItem={0}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    hasParallaxImages={false}
+    horizontal={true}
+    inactiveSlideOpacity={0.7}
+    inactiveSlideScale={0.9}
+    inactiveSlideShift={0}
+    initialNumToRender={7}
+    invertStickyHeaders={false}
+    inverted={false}
+    isInvertedVirtualizedList={false}
+    itemWidth={300}
+    keyExtractor={[Function]}
+    keyboardShouldPersistTaps="always"
+    layout="default"
+    lockScrollTimeoutDuration={1000}
+    lockScrollWhileSnapping={false}
+    loop={false}
+    loopClonesPerSide={3}
+    maxToRenderPerBatch={15}
+    onBeforeSnapToItem={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onResponderRelease={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    onStartShouldSetResponderCapture={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+    overScrollMode="never"
+    pinchGestureEnabled={false}
+    removeClippedSubviews={true}
+    renderItem={[Function]}
+    scrollEnabled={true}
+    scrollEventThrottle={1}
+    scrollsToTop={false}
+    shouldOptimizeUpdates={true}
+    showsHorizontalScrollIndicator={false}
+    showsVerticalScrollIndicator={false}
+    slideStyle={{}}
+    sliderWidth={400}
+    stickyHeaderIndices={[]}
+    style={
+      {
+        "flexDirection": "row",
+        "opacity": 0,
+        "width": 400,
+      }
+    }
+    swipeThreshold={20}
+    useScrollView={false}
+    vertical={false}
+    viewabilityConfigCallbackPairs={[]}
+    windowSize={15}
+  >
+    <View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          collapsable={false}
+          pointerEvents="box-none"
+          style={
+            {
+              "opacity": 1,
+              "transform": [
+                {
+                  "scale": 1,
+                },
+              ],
+              "width": 300,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "height": 300,
+              }
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessible={true}
+              carousel={true}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "borderColor": "#ddd",
+                  "borderStyle": "solid",
+                  "borderWidth": 1,
+                  "flexBasis": 0,
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "marginBottom": 15,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "gap": 10,
+                    "paddingBottom": 15,
+                    "paddingLeft": 15,
+                    "paddingRight": 15,
+                    "paddingTop": 15,
+                  }
+                }
+              >
+                <Image
+                  source={
+                    {
+                      "uri": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+                    }
+                  }
+                  style={
+                    {
+                      "backgroundColor": "#fff",
+                      "height": 125,
+                      "resizeMode": "contain",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <Text
+                  style={
+                    {
+                      "color": "#111111",
+                      "fontSize": 18,
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  Depilação de axilas
+                </Text>
+                <Text
+                  numberOfLines={1}
+                  style={
+                    {
+                      "color": "#666666",
+                      "fontSize": 14,
+                    }
+                  }
+                >
+                  Lorem ipsum sit dolor
+                </Text>
+              </View>
+              <View
+                style={
+                  {
+                    "borderColor": "transparent",
+                    "borderStyle": "solid",
+                    "borderTopColor": "#ddd",
+                    "borderWidth": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "paddingBottom": 10,
+                    "paddingLeft": 15,
+                    "paddingRight": 15,
+                    "paddingTop": 10,
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <Text
+                    style={{}}
+                  >
+                    R$299.00
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          collapsable={false}
+          pointerEvents="box-none"
+          style={
+            {
+              "opacity": 0.7,
+              "transform": [
+                {
+                  "scale": 0.9,
+                },
+              ],
+              "width": 300,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "height": 300,
+              }
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessible={true}
+              carousel={true}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "borderColor": "#ddd",
+                  "borderStyle": "solid",
+                  "borderWidth": 1,
+                  "flexBasis": 0,
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "marginBottom": 15,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "gap": 10,
+                    "paddingBottom": 15,
+                    "paddingLeft": 15,
+                    "paddingRight": 15,
+                    "paddingTop": 15,
+                  }
+                }
+              >
+                <Image
+                  source={
+                    {
+                      "uri": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+                    }
+                  }
+                  style={
+                    {
+                      "backgroundColor": "#fff",
+                      "height": 125,
+                      "resizeMode": "contain",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <Text
+                  style={
+                    {
+                      "color": "#111111",
+                      "fontSize": 18,
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  Depilação de virilia
+                </Text>
+                <Text
+                  numberOfLines={1}
+                  style={
+                    {
+                      "color": "#666666",
+                      "fontSize": 14,
+                    }
+                  }
+                >
+                  Amet sir conquetur amen
+                </Text>
+              </View>
+              <View
+                style={
+                  {
+                    "borderColor": "transparent",
+                    "borderStyle": "solid",
+                    "borderTopColor": "#ddd",
+                    "borderWidth": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "paddingBottom": 10,
+                    "paddingLeft": 15,
+                    "paddingRight": 15,
+                    "paddingTop": 10,
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#8c8c8c",
+                        "marginRight": 15,
+                        "textDecorationLine": "line-through",
+                        "textDecorationStyle": "solid",
+                      }
+                    }
+                  >
+                    R$499.00
+                  </Text>
+                  <Text
+                    style={{}}
+                  >
+                    R$399.00
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    accessible={false}
+    pointerEvents="box-none"
+    style={
+      [
+        {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "paddingHorizontal": 20,
+          "paddingVertical": 30,
+        },
+        {
+          "flexDirection": "row",
+        },
+        {},
+      ]
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={false}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "marginHorizontal": 8,
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        style={
+          {
+            "backgroundColor": "rgba(0, 0, 0, 0.92)",
+            "borderRadius": 5,
+            "height": 10,
+            "marginHorizontal": 2,
+            "opacity": 0.4,
+            "transform": [
+              {
+                "scale": 0.6,
+              },
+            ],
+            "width": 10,
+          }
+        }
+      />
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={false}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "marginHorizontal": 8,
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        style={
+          {
+            "backgroundColor": "rgba(0, 0, 0, 0.92)",
+            "borderRadius": 5,
+            "height": 10,
+            "marginHorizontal": 2,
+            "opacity": 0.4,
+            "transform": [
+              {
+                "scale": 0.6,
+              },
+            ],
+            "width": 10,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;

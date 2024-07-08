@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "borderBottomColor": "#ddd",
+        "borderColor": "transparent",
+        "borderStyle": "solid",
+        "borderWidth": 1,
+        "paddingBottom": 42,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 42,
+        "width": "100%",
+      }
+    }
+  >
+    <Image
+      source={
+        {
+          "uri": "https://i.pinimg.com/280x280_RS/39/fd/09/39fd09a3f0962e5b7b4a3ccbf5a61057.jpg",
+        }
+      }
+      style={
+        {
+          "borderBottomLeftRadius": 100,
+          "borderBottomRightRadius": 100,
+          "borderTopLeftRadius": 100,
+          "borderTopRightRadius": 100,
+          "height": 90,
+          "marginBottom": 20,
+          "width": 90,
+        }
+      }
+    />
+    <Text
+      style={
+        {
+          "color": "#111111",
+          "fontSize": 20,
+          "fontWeight": "700",
+        }
+      }
+    >
+      Bruce Wayne
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#666666",
+          "fontSize": 14,
+          "fontWeight": "700",
+          "marginTop": 5,
+        }
+      }
+    >
+      Wayne Interprise
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`ProfileWrapper 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "borderBottomColor": "#ddd",
+        "borderColor": "transparent",
+        "borderStyle": "solid",
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "height": 62,
+        "justifyContent": "space-between",
+        "paddingBottom": 0,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingTop": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "width": 30,
+        }
+      }
+    />
+    <Text
+      numberOfLines={2}
+      style={
+        {
+          "color": "#111111",
+          "fontSize": 20,
+          "fontWeight": "700",
+          "maxWidth": 200,
+          "textAlign": "center",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontFamily": "FredokaOne-Regular",
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "rgb(0,168,104)",
+                "fontSize": 32,
+                "fontWeight": "700",
+              }
+            }
+          >
+            Stone
+          </Text>
+          <Text
+            style={
+              {
+                "color": "rgb(10,245,61)",
+                "fontSize": 32,
+                "fontWeight": "700",
+              }
+            }
+          >
+            Ton :)
+          </Text>
+        </Text>
+      </View>
+    </Text>
+    <View
+      style={
+        {
+          "width": 30,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "borderBottomColor": "#ddd",
+          "borderColor": "transparent",
+          "borderStyle": "solid",
+          "borderWidth": 1,
+          "paddingBottom": 42,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 42,
+          "width": "100%",
+        }
+      }
+    >
+      <Image
+        source={
+          {
+            "uri": "https://i.pinimg.com/280x280_RS/39/fd/09/39fd09a3f0962e5b7b4a3ccbf5a61057.jpg",
+          }
+        }
+        style={
+          {
+            "borderBottomLeftRadius": 100,
+            "borderBottomRightRadius": 100,
+            "borderTopLeftRadius": 100,
+            "borderTopRightRadius": 100,
+            "height": 90,
+            "marginBottom": 20,
+            "width": 90,
+          }
+        }
+      />
+      <Text
+        style={
+          {
+            "color": "#111111",
+            "fontSize": 20,
+            "fontWeight": "700",
+          }
+        }
+      >
+        Bruce Wayne
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#666666",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "marginTop": 5,
+          }
+        }
+      >
+        Wayne Interprise
+      </Text>
+    </View>
+  </View>
+</View>
+`;

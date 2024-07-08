@@ -1,0 +1,311 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header 1`] = `
+[
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "borderBottomColor": "#ddd",
+        "borderColor": "transparent",
+        "borderStyle": "solid",
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "height": 62,
+        "justifyContent": "space-between",
+        "paddingBottom": 0,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingTop": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text />
+    </View>
+    <Text
+      numberOfLines={2}
+      style={
+        {
+          "color": "#111111",
+          "fontSize": 20,
+          "fontWeight": "700",
+          "maxWidth": 200,
+          "textAlign": "center",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontFamily": "FredokaOne-Regular",
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "rgb(0,168,104)",
+                "fontSize": 32,
+                "fontWeight": "700",
+              }
+            }
+          >
+            Stone
+          </Text>
+          <Text
+            style={
+              {
+                "color": "rgb(10,245,61)",
+                "fontSize": 32,
+                "fontWeight": "700",
+              }
+            }
+          >
+            Ton :)
+          </Text>
+        </Text>
+      </View>
+    </Text>
+    <View
+      style={
+        {
+          "width": 30,
+        }
+      }
+    />
+  </View>,
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "borderBottomColor": "#ddd",
+        "borderColor": "transparent",
+        "borderStyle": "solid",
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "height": 62,
+        "justifyContent": "space-between",
+        "paddingBottom": 0,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingTop": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "width": 30,
+        }
+      }
+    />
+    <Text
+      numberOfLines={2}
+      style={
+        {
+          "color": "#111111",
+          "fontSize": 20,
+          "fontWeight": "700",
+          "maxWidth": 200,
+          "textAlign": "center",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontFamily": "FredokaOne-Regular",
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "rgb(0,168,104)",
+                "fontSize": 32,
+                "fontWeight": "700",
+              }
+            }
+          >
+            Stone
+          </Text>
+          <Text
+            style={
+              {
+                "color": "rgb(10,245,61)",
+                "fontSize": 32,
+                "fontWeight": "700",
+              }
+            }
+          >
+            Ton :)
+          </Text>
+        </Text>
+      </View>
+    </Text>
+    <View
+      style={
+        {
+          "width": 30,
+        }
+      }
+    />
+  </View>,
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "borderBottomColor": "#ddd",
+        "borderColor": "transparent",
+        "borderStyle": "solid",
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "height": 62,
+        "justifyContent": "space-between",
+        "paddingBottom": 0,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingTop": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text />
+    </View>
+    <Text
+      numberOfLines={2}
+      style={
+        {
+          "color": "#111111",
+          "fontSize": 20,
+          "fontWeight": "700",
+          "maxWidth": 200,
+          "textAlign": "center",
+        }
+      }
+    >
+      Checkout
+    </Text>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text />
+    </View>
+  </View>,
+]
+`;

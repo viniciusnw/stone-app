@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label 1`] = `
+<View
+  color="primary"
+  rounded={false}
+  style={
+    {
+      "alignSelf": "flex-start",
+      "backgroundColor": "rgb(10,245,61)",
+      "borderBottomLeftRadius": 0,
+      "borderBottomRightRadius": 0,
+      "borderTopLeftRadius": 0,
+      "borderTopRightRadius": 0,
+      "flexDirection": "row",
+      "paddingBottom": 5,
+      "paddingLeft": 10,
+      "paddingRight": 10,
+      "paddingTop": 5,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#ffffff",
+        "fontSize": 12,
+        "fontWeight": "700",
+      }
+    }
+  >
+    Default Label
+  </Text>
+</View>
+`;
