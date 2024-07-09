@@ -2,6 +2,8 @@
   Stone Test
 </h1>
 
+<div align="center">
+
 |                                                        Technology                                                             |  Name             | Site              |
 | :---------------------------------------------------------------------------------------------------------------------------: | :---------------: | :---------------: |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/187955005-f4ca6f1a-e727-497b-b81b-93fb9726268e.png"> |      Jest         | https://jestjs.io/pt-BR/
@@ -11,7 +13,7 @@
 | <img height="50" src="https://user-images.githubusercontent.com/18430599/38112659-491f9112-3368-11e8-8b65-1725f19a61fa.png">  |      Storybook    | https://storybook.js.org/
 | <img height="50" src="https://cdn.icon-icons.com/icons2/2389/PNG/512/expo_logo_icon_145293.png">                              |      Expo         | https://expo.dev/
 
-
+</div>
 
 ## 🚅 Quick start
 
